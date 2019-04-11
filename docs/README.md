@@ -46,6 +46,10 @@ As I said before, one of the methods of the Task class, which is Action, is virt
 
 ![MoveRightActionMethod](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/MoveRightMethod.PNG?raw=true)
 
+Then in the Player entity class that inherits from the Entity Module, has a method, Move(), that recieve the input for the four directions with the arrows, when you press one of them down, we add a task to the queue, AddTaskToQueue, that recieves a rask, in this case, MoveRight or any other direction. This task recieves a entity, that is the own module.
+
+![MoveRightActionMethod](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/move.PNG?raw=true)
+
 ## Bibliography
 
 http://www.cplusplus.com/reference/queue/queue/

@@ -35,3 +35,6 @@ The first one, Task, will serve for the type of task we want to create. In this 
 
 <img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskClass.PNG" width="350" height="250">
 
+The second one, j1TaskQueue,
+
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskQueueClass.PNG" width="350" height="250">

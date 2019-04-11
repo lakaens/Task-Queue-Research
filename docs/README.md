@@ -27,7 +27,7 @@ One typical push queue use case is a "slow" operation. Consider a social network
 Pull queues work well when you need to batch tasks together for efficient execution. One solution takes advantage of the ability to attach a tag to a pull task. Workers can lease a group of tasks that have the same tag. A typical example might be an app that maintains leaderboards for numerous different games, with many players and groups constantly in play. Every time there is a new high score, the app can enqueue a pull task with the score and the player, and use the game ID as a task tag. A worker periodically "wakes up", leases a group of tasks with the same game ID, and updates the leaderboard. You can lease tasks explicitly, using a specified tag value, or let the service decide which group of similarly tagged tasks to send.
 
 
-## Handout
+## How my Task Queue code works
 
 First of all, we have two implemented classes.
 

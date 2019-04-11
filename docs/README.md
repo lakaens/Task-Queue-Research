@@ -42,4 +42,4 @@ We have two methods, AddTaskToQueue, which is used to add new tasks to the queue
 
 As i said before,
 
-<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/RightMoveMethod.PNG" width="350" height="300">
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/MoveRightMethod.PNG" width="350" height="300">

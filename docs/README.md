@@ -48,4 +48,8 @@ As I said before, one of the methods of the Task class, which is Action, is virt
 
 ## Bibliography
 
+http://www.cplusplus.com/reference/queue/queue/
 
+https://www.geeksforgeeks.org/queue-cpp-stl/
+
+https://cloud.google.com/appengine/docs/standard/python/taskqueue/

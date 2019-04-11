@@ -29,8 +29,17 @@ Pull queues work well when you need to batch tasks together for efficient execut
 
 ## Handout
 
+First of all, we have two implemented classes.
 
-First of all, we have two implemented classes, one that is the first, Task, will serve for the type of task we want to create. In this case we have created a movement task, where we have two virtual methods, one that is the Action () that will serve us to implement the movement for each direction. And another one that is InitTask () that will help us to calculate the final position of the sprite to perform the tasks one after the other when they are finished.
+The first one, Task, will serve for the type of task we want to create. In this case we have created a movement task, where we have two virtual methods, one that is the Action () that will serve us to implement the movement for each direction. And another one that is InitTask () that will help us to calculate the final position of the sprite to perform the tasks one after the other when they are finished.
 
-<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskandTaskQueueClasses.PNG" width="300" height="400">
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskClass.PNG" width="350" height="250">
 
+The second one, j1TaskQueue, will serve to create a queue of tasks, std :: queue <Task *> TaskQueue, where we will also create the task, auxiliar_task, which we're going to use it later to assign assignments to the queue.
+We have two methods, AddTaskToQueue, which is used to add new tasks to the queue, and ExecuteTasks, which serves to execute the tasks in the corresponding order.
+
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskQueueClass.PNG" width="350" height="300">
+
+As i said before,
+
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/RightMoveMethod.PNG" width="350" height="300">

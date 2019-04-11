@@ -22,7 +22,7 @@ bool MoveLeft::Action()
 bool MoveRight::Action()
 {
 	bool ret = false;
-	//TODO 4: Implement the code for the movility for the Right direction. Hint: You have already implemented the MoveLeft:Action method above
+	//TODO 4: Implement the code for the movility of the Right direction. Hint: You have already implemented the MoveLeft:Action method above
 	
 	
 	return ret;
@@ -31,7 +31,7 @@ bool MoveRight::Action()
 bool MoveUp::Action()
 {
 	bool ret = false;
-	//TODO 4: Implement the code for the movility for the Up direction. Hint: You have already implemented the MoveLeft:Action method above
+	//TODO 4: Implement the code for the movility of the Up direction. Hint: You have already implemented the MoveLeft:Action method above
 	
 	
 	return ret;
@@ -40,7 +40,7 @@ bool MoveUp::Action()
 bool MoveDown::Action()
 {
 	bool ret = false;
-	//TODO 4: Implement the code for the movility for the Down direction. Hint: You have already implemented the MoveLeft:Action method above
+	//TODO 4: Implement the code for the movility of the Down direction. Hint: You have already implemented the MoveLeft:Action method above
 	
 	
 	return ret;

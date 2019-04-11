@@ -3,7 +3,7 @@
 My name is Eric Navarro and I'm a videogame programmer student at CITM, UPC. This is a research about Task Queues on C++, content that is created for the subject of Project 2 and I will teach you the basics so you can apply them on your own videogame.
 
 ## Queues
-Queues are a type of container adaptor, specifically designed to operate in a FIFO context (first-in first-out), where elements are inserted into one end of the container and extracted from the other.+
+Queues are a type of container adaptor, specifically designed to operate in a FIFO context (first-in first-out), where elements are inserted into one end of the container and extracted from the other.
 
 ## Task Queues
 Task Queues let applications perform work, called tasks, asynchronously outside of a user request. If an app needs to execute work in the background, it adds tasks to task queues. The tasks are executed later, by worker services.
@@ -33,18 +33,18 @@ First of all, we have two implemented classes.
 
 The first one, Task, will serve for the type of task we want to create. In this case we have created a movement task, where we have two virtual methods, one that is the Action () that will serve us to implement the movement for each direction. And another one that is InitTask () that will help us to calculate the final position of the sprite to perform the tasks one after the other when they are finished.
 
-![Task Class Image](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskClass.PNG)
+![Task Class Image](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskClass.PNG?raw=true)
 
 
 The second one, j1TaskQueue, will serve to create a queue of tasks, std :: queue <Task *> TaskQueue, where we will also create the task, auxiliar_task, which we're going to use it later to assign assignments to the queue.
 We have two methods, AddTaskToQueue, which is used to add new tasks to the queue, and ExecuteTasks, which serves to execute the tasks in the corresponding order taking into account if the current task is over.
 
-![Task Queue Class](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskQueueClass.PNG)
+![Task Queue Class](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskQueueClass.PNG?raw=true)
 
 
 As I said before, one of the methods of the Task class, which is Action, is virtual, which is useful so that each task uses the method to perform different procedures. In the code that I've brought to you, the tasks are moving, a task for each of them, here's an example of what the Action method is for the movement to the right. 
 
-![MoveRightActionMethod](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/MoveRightMethod.PNG)
+![MoveRightActionMethod](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/MoveRightMethod.PNG?raw=true)
 
 ## Bibliography
 

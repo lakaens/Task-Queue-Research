@@ -38,8 +38,8 @@ The first one, Task, will serve for the type of task we want to create. In this 
 The second one, j1TaskQueue, will serve to create a queue of tasks, std :: queue <Task *> TaskQueue, where we will also create the task, auxiliar_task, which we're going to use it later to assign assignments to the queue.
 We have two methods, AddTaskToQueue, which is used to add new tasks to the queue, and ExecuteTasks, which serves to execute the tasks in the corresponding order.
 
-<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskQueueClass.PNG" width="350" height="300">
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskQueueClass.PNG" width="350" height="350">
 
-As i said before,
+As I said before, one of the methods of the Task class, which is Action, is virtual, which is useful so that each task uses the method to perform different procedures. In the code that I've brought to you, the tasks are moving, a task for each of them, here's an example of what the Action method is for the movement to the right. 
 
-<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/MoveRightMethod.PNG" width="350" height="300">
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/MoveRightMethod.PNG" width="500" height="250">

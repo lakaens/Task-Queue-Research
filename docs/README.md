@@ -3,7 +3,7 @@
 My name is Eric Navarro and I'm a videogame programmer student at CITM, UPC. This is a research about Task Queues on C++, content that is created for the subject of Project 2 and I will teach you the basics so you can apply them on your own videogame.
 
 ## Queues
-Queues are a type of container adaptor, specifically designed to operate in a FIFO context (first-in first-out), where elements are inserted into one end of the container and extracted from the other.+
+Queues are a type of container adaptor, specifically designed to operate in a FIFO context (first-in first-out), where elements are inserted into one end of the container and extracted from the other.
 
 ## Task Queues
 Task Queues let applications perform work, called tasks, asynchronously outside of a user request. If an app needs to execute work in the background, it adds tasks to task queues. The tasks are executed later, by worker services.

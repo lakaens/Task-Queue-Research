@@ -39,3 +39,7 @@ The second one, j1TaskQueue, will serve to create a queue of tasks, std :: queue
 We have two methods, AddTaskToQueue, which is used to add new tasks to the queue, and ExecuteTasks, which serves to execute the tasks in the corresponding order.
 
 <img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskQueueClass.PNG" width="350" height="300">
+
+As i said before,
+
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/RightMoveMethod.PNG" width="350" height="300">

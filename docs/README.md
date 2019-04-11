@@ -1,0 +1,2 @@
+# TaskQueueResearch
+queues are a type of container adaptor, specifically designed to operate in a FIFO context (first-in first-out), where elements are inserted into one end of the container and extracted from the other.

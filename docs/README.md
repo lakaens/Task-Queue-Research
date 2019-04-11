@@ -33,18 +33,18 @@ First of all, we have two implemented classes.
 
 The first one, Task, will serve for the type of task we want to create. In this case we have created a movement task, where we have two virtual methods, one that is the Action () that will serve us to implement the movement for each direction. And another one that is InitTask () that will help us to calculate the final position of the sprite to perform the tasks one after the other when they are finished.
 
-![Task Class Image](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskClass.png)
+![Task Class Image](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskClass.PNG)
 
 
 The second one, j1TaskQueue, will serve to create a queue of tasks, std :: queue <Task *> TaskQueue, where we will also create the task, auxiliar_task, which we're going to use it later to assign assignments to the queue.
 We have two methods, AddTaskToQueue, which is used to add new tasks to the queue, and ExecuteTasks, which serves to execute the tasks in the corresponding order taking into account if the current task is over.
 
-![Task Queue Class](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskQueueClass.png)
+![Task Queue Class](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/TaskQueueClass.PNG)
 
 
 As I said before, one of the methods of the Task class, which is Action, is virtual, which is useful so that each task uses the method to perform different procedures. In the code that I've brought to you, the tasks are moving, a task for each of them, here's an example of what the Action method is for the movement to the right. 
 
-![MoveRightActionMethod](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/MoveRightMethod.png)
+![MoveRightActionMethod](https://github.com/lakaens/Task_Queue_Research/blob/master/docs/MoveRightMethod.PNG)
 
 ## Bibliography
 

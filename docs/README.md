@@ -29,3 +29,5 @@ Pull queues work well when you need to batch tasks together for efficient execut
 
 ## Handout
 
+<img src="" width="598" height="368">
+

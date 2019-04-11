@@ -33,5 +33,5 @@ First of all, we have two implemented classes.
 
 The first one, Task, will serve for the type of task we want to create. In this case we have created a movement task, where we have two virtual methods, one that is the Action () that will serve us to implement the movement for each direction. And another one that is InitTask () that will help us to calculate the final position of the sprite to perform the tasks one after the other when they are finished.
 
-<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskClass.PNG" width="100" height="300">
+<img src="https://github.com/lakaens/Task-Queue-Research/blob/master/docs/TaskClass.PNG" width="350" height="250">
 
